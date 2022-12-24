@@ -23,7 +23,6 @@ class MethodOverridingEx {
     public static void main(String args[]) {
         Dog d1 = new Dog();
         Animal a1 = new Animal();
-
         d1.eat();
         a1.eat();
 
@@ -32,14 +31,5 @@ class MethodOverridingEx {
         // base class eat()
         animal.eat();
 
-        Dog dog1 = new Dog();
-        // eat() method of animal class is overridden by
-        // base class eat()
-        dog1.eat();
-
-        Animal animal1 = new Animal();
-        // eat() method of animal class is overridden by
-        // base class eat()
-        animal1.eat();
     }
 }
