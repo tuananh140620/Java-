@@ -11,7 +11,7 @@ public class Main {
         // hiển thị phần tử đầu tiên của mảng cars
         //System.out.println("Phần tử đầu tiên: " + cars[0]);
 
-        String[] cars = {"Honda", "BMW", "Ford", "Mazda"};
+        String[] cars = {"Honda", "BMW", "Ford", "Mazda", "BMW"};
         for (int i = 0; i < 4; i++) {
             System.out.println(cars[i]);
         }
